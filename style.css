@@ -1,0 +1,79 @@
+nav{
+    background-color: #0B0909;
+}
+#home{
+    background-image: url("bg.png");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;height: 75vh;
+   
+}
+html{
+  scroll-behavior: smooth;
+}
+section {
+    scroll-margin-top: 80px;
+}
+.animated{
+         animation:  up-down  1s ease-in-out infinite alternate-reverse both;
+}
+@keyframes up-down {
+       0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+@media (max-width: 576px) {
+    .animated {
+        display: block;
+        width: 75%;
+        max-width: 280px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+#event {
+    background-color: #0F0D0B;
+}
+
+.card {
+    background-color: #1B1714;
+border: 1px solid #3A3028;
+  
+}
+.modal{
+       color: #1B1714;
+border: 1px solid #3A3028;
+}
+.modal-content{
+    background-color: #1B1714;
+}
+h5{
+    font-family: 'Inter';
+}
+.card:hover{
+  transform: translateY(-10px);
+  box-shadow:
+    0 0 15px rgba(255,178,44,0.5),
+    0 0 30px rgba(255,178,44,0.35),
+    0 0 50px rgba(255,178,44,0.2);
+}
+#clubs{
+   background-color: #12100E;
+}
+#anoun{
+    background-color:#0E0D0C;
+}
+.box{
+ background-color: #1B1714;
+border: 1px solid #3A3028;
+}
+#contact{
+    background-color: #12100E
+}
+footer{
+    background-color: #0B0909;
+}
